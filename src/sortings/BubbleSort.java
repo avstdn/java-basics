@@ -35,7 +35,7 @@ public class BubbleSort {
                     array[j] = array[j+1] - array[j];
                     array[j+1] -= array[j];
 
-                    // Or With XOR
+                    /* Или с помощью XOR */
 //                    array[j+1] ^= array[j];
 //                    array[j] ^= array[j+1];
 //                    array[j+1] ^= array[j];
